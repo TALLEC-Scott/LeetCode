@@ -1,8 +1,7 @@
-package org.example;
 
 import java.lang.module.Configuration;
 
-public class ComputeArea {
+public class RectangleArea{
 
     public static int computeArea(int x1, int y1, int x2, int y2)
     {
@@ -25,7 +24,7 @@ public class ComputeArea {
     }
 
     public static void main(String[] args) {
-       var thing = new ComputeArea();
+       var thing = new RectangleArea();
        var res = thing.computeArea(-3, 0, 0, 2, 0, -1, 9, 2 );
        System.out.println(res);
         var res2 = thing.computeArea(-2, -2, 2, 2, -2, -2, 2, 2 );
