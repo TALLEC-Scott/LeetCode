@@ -11,38 +11,32 @@ public class ReversePolishNotation {
         Integer op1, op2;
         for (String token :
                 tokens) {
+            switch (token) {
 
-            if (token.length() > 1) { //bit of a hack, looking at the first char to see if it's an operand or operator works for all cases excecpt -n
-                // where n is any number. So if you the number is negative it will always have atleast 2 chars
-                operands.add(Integer.parseInt(token));
-                continue;
-            }
-
-            switch (token.charAt(0)) {
-                case '+' -> {
+                case "+" -> {
                     op2 = operands.pop();
                     op1 = operands.pop();
                     operands.add(op1 + op2);
                 }
-                case '-' -> {
+                case "-" -> {
                     op2 = operands.pop();
                     op1 = operands.pop();
                     operands.add(op1 - op2);
                 }
-                case '*' -> {
+                case "*" -> {
                     op2 = operands.pop();
                     op1 = operands.pop();
                     operands.add(op1 * op2);
                 }
-                case '/' -> {
+                case "/" -> {
                     op2 = operands.pop();
                     op1 = operands.pop();
                     operands.add(op1 / op2);
                 }
-                case default -> operands.add(Integer.parseInt(token));
+                    case default -> operands.add(Integer.parseInt(token));
             }
         }
-        return operands.pop();
+        return operands.peek();
     }
 
     public static void main(String[] args) {
