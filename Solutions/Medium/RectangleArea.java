@@ -1,3 +1,4 @@
+package Medium;
 
 import java.lang.module.Configuration;
 
@@ -17,9 +18,9 @@ public class RectangleArea{
         var y1 = Math.max(ay1, by1);
         var x2 = Math.min(ax2, bx2);
         var y2 = Math.min(ay2, by2);
-        var areaA = ComputeArea.computeArea(ax1,ay1,ax2,ay2);
-        var areaB = ComputeArea.computeArea(bx1,by1,bx2,by2);
-        var areaBIntersectA = ComputeArea.computeArea(x1, y1, x2, y2);
+        var areaA = RectangleArea.computeArea(ax1,ay1,ax2,ay2);
+        var areaB = RectangleArea.computeArea(bx1,by1,bx2,by2);
+        var areaBIntersectA = RectangleArea.computeArea(x1, y1, x2, y2);
         return areaA + areaB - areaBIntersectA;
     }
 

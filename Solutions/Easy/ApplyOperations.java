@@ -1,11 +1,10 @@
-package org.example;
+package Easy;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
 
 public class ApplyOperations {
-    public int[] applyOperations(int @NotNull [] nums) {
+    public int[] applyOperations(int [] nums) {
         for(int i = 0; i < nums.length - 1; i++)
         {
             if (nums[i] == nums[i+1])

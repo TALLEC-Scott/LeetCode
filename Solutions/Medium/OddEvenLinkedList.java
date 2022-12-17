@@ -1,3 +1,5 @@
+package Medium;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -8,7 +10,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class OddEvenLinkedList {
     public ListNode oddEvenList(ListNode head) {
 
         var odd = head;

@@ -1,3 +1,5 @@
+package Easy;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +15,7 @@
  *     }
  * }
  */
-class Solution {
+class RangeSumBST {
     public int rangeSumBST(TreeNode root, int low, int high) {
 
         if (root == null)

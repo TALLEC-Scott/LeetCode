@@ -1,4 +1,10 @@
-class Solution {
+package Easy;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Stack;
+
+class ValidParentheses {
     public static boolean valid(char c1, char c2)
     {
         if (c1 == '(' && c2 == ')')
@@ -18,7 +24,7 @@ class Solution {
             c = s.charAt(i);
             if (!close_bracket.contains(c))
                 stk.add(c);
-            else if (stk.empty() || !Solution.valid(stk.pop(), c))
+            else if (stk.empty() || !ValidParentheses.valid(stk.pop(), c))
                 return false;
         }
         return stk.empty();

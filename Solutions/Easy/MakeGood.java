@@ -1,4 +1,4 @@
-package org.example;
+package Easy;
 
 public class MakeGood {
     public static boolean equals(Character c1, Character c2)

@@ -1,4 +1,4 @@
-package org.example;
+package Medium;
 
     import java.util.StringJoiner;
 

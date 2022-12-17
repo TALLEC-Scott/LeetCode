@@ -1,4 +1,4 @@
-package org.example;
+package Easy;
 
 public class IsUgly {
 

@@ -1,11 +1,11 @@
-package org.example;
+package Medium;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 
-class Solution {
+class LongestPalindrome {
 
 
     public static boolean genericIsPalindrome(String word)
@@ -35,7 +35,7 @@ class Solution {
             var value = hashMap.get(word);
             if(value != null)
             {
-                if (Solution.isPair(word))
+                if (LongestPalindrome.isPair(word))
                 {
                     numberOfLonePairs--;
                 }
@@ -53,7 +53,7 @@ class Solution {
                 if (val == null)
                     val = 0;
                 hashMap.put(flip(word), val + 1);
-                if (Solution.isPair(word))
+                if (LongestPalindrome.isPair(word))
                     numberOfLonePairs++;
 
 
@@ -65,7 +65,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        LongestPalindrome solution = new LongestPalindrome();
         String[] test = {"qo","fo","fq","qf","fo","ff","qq","qf","of","of","oo","of","of","qf","qf","of"};
 
         var adf = "fo fq  fo ff of qf of";
