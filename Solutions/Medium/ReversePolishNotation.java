@@ -33,7 +33,7 @@ public class ReversePolishNotation {
                     op1 = operands.pop();
                     operands.add(op1 / op2);
                 }
-                    case default -> operands.add(Integer.parseInt(token));
+                case default -> operands.add(Integer.parseInt(token));
             }
         }
         return operands.peek();
@@ -41,8 +41,8 @@ public class ReversePolishNotation {
 
     public static void main(String[] args) {
         var x = new ReversePolishNotation();
-        var input = new String[]{"10","6","9","3","+","-11","*","/","*","17","+","5","+"};
-        var res = x.evalRPN(input   );
+        var input = new String[]{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"};
+        var res = x.evalRPN(input);
         System.out.println(res);
 
     }
