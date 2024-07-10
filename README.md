@@ -1,7 +1,7 @@
 # [LeetCode](https://leetcode.com/problemset/all/)
 
-![Language](https://img.shields.io/badge/language-Python%20%2F%20Java-green.svg)&nbsp;
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)&nbsp;
+![Language](https://img.shields.io/badge/language-Python%20%2F%20Java-orange.svg)&nbsp;
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE.md)&nbsp;
 ![Progress](https://img.shields.io/badge/progress-45%20%2F%203213-ff69b4.svg)&nbsp;
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=TALLEC-Scott.LeetCode)
 
