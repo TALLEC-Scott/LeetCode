@@ -1,6 +1,5 @@
 # ![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
 
-![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
 ![Language](https://img.shields.io/badge/language-Python%20%2F%20Java-orange.svg)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)&nbsp;
 ![Progress](https://img.shields.io/badge/progress-50%20%2F%203213-ff69b4.svg)&nbsp;
