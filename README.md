@@ -1,4 +1,4 @@
-# [![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com)
+# [![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com](https://leetcode.com/problemset/all/)
 
 ![Language](https://img.shields.io/badge/language-Python%20%2F%20Java-orange.svg)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)&nbsp;
