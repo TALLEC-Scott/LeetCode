@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/language-Python%20%2F%20Java-orange.svg)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)&nbsp;
-![Progress](https://img.shields.io/badge/progress-50%20%2F%203213-ff69b4.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-51%20%2F%203213-ff69b4.svg)&nbsp;
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=TALLEC-Scott.LeetCode)
 
 <!-- ![Update](https://img.shields.io/badge/update-daily-green.svg)&nbsp; -->
